@@ -12,11 +12,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 35px;
 }
 
 .small-card-title > h1 > a {
   text-decoration: none;
   color: white;
+  font-size: 25px;
+  line-height: 0px;
 }
 
 .small-card-picture > img {
