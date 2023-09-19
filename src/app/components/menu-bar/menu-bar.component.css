@@ -1,20 +1,10 @@
-.menu-title-container {
+.menu-bar-container > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-bar-container > ul > li {
   color: white;
-}
-
-.menu-title-container > h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  font-family: "segoe UI";
-  display: flex;
-  justify-content: center;
-}
-
-.menu-title-container > hr {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  font-size: 135px;
-  display: flex;
-  justify-content: center;
+  margin-right: 20px;
+  list-style: none;
 }
