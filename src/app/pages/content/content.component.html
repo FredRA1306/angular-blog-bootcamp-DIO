@@ -1,5 +1,4 @@
 <div class="content-container">
-  <a [routerLink]="['']" class="">HOME</a>
   <div class="cover-content">
     <img src="{{ photoCover }}" alt="" class="" />
   </div>
@@ -8,6 +7,6 @@
     <hr />
   </div>
   <div class="description-content">
-    <p>{{ contentDescription }}</p>
+    <p [innerHTML]="contentDescription"></p>
   </div>
 </div>
