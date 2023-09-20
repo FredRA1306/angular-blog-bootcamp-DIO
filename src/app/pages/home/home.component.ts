@@ -6,6 +6,4 @@ import { dataFake } from 'src/app/data/dataFake';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
 })
-export class HomeComponent {
-  article = dataFake;
-}
+export class HomeComponent {}
